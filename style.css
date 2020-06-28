@@ -35,6 +35,8 @@ body {
 h1 {
     font-size: 3rem;
     font-variant: small-caps;
+    margin-bottom: 1rem;
+
 }
 
 .circle {
@@ -121,19 +123,21 @@ h1 {
 }
 
 
+/*  FOOTER  */
+
+.copyrights {}
+
+footer {
+    background: rgba(0, 0, 0, .5);
+}
+
+footer p {
+    padding: .5rem;
+    font-size: .75rem;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* SIZES OF DEVICES */
 
 
 @media (min-device-width: 425px) {
@@ -153,6 +157,10 @@ h1 {
         grid-template-rows: repeat(10, 1fr);
         grid-gap: 1rem;
         margin: 0 0 3rem 0;
+    }
+
+    .circle {
+        transform: scale(1.1);
     }
 
 
@@ -224,7 +232,7 @@ h1 {
 
 }
 
-@media (min-device-width: 1024px) {
+@media (min-device-width: 1100px) {
 
     h1,
     p {
@@ -298,10 +306,6 @@ h1 {
         transform: scale(1.1);
     }
 
-    h1 {
-        margin-bottom: 1rem;
-    }
-
     .subtitles {
         padding: 3.5rem 0;
     }
@@ -313,6 +317,10 @@ h1 {
         grid-gap: 3rem;
         padding: 2rem 8rem;
         justify-items: center;
+    }
+
+    .circle {
+        transform: scale(1);
     }
 
     .circle-box:nth-child(1) {
