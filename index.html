@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nawigacja | RM</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- All CSS Core -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <navbar>
+
+
+            <object class="login" type="image/svg+xml" data="svg/login.svg"><span class="txt-type" data-wait="3000" data-words='["Log in"]'></span></object>
+
+
+            <div class="dropdown">
+                <object type="image/svg+xml" data="svg/langs.svg"></object>
+                <div class="dropdown-content">
+                    <a href="">EN</a>
+                    <a href="">PL</a>
+                </div>
+            </div>
+
+        </navbar>
+
+        <div id="content">
+            <div class="subtitles">
+                <h1 class="title">Repozytorium maturalne</h1>
+                <p class="describe">Znajdziesz tu krótkie omówienie epok oraz najważnioejsze lektury, które mogą się przydać przy pracy pisemnej a także rady odnośnie matury.</p>
+            </div>
+            <div class="literary-eras">
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/antique.svg" alt="ANTYK">
+                    </div>
+                    <span class="antique"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/middle%20ages.svg" alt="ŚREDNIOWIECZE">
+                    </div>
+                    <span class="middleAges"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle circleRenesans"  onclick="changeContent();">
+                        <img src="svg/renesans.svg" alt="RENESANS">
+                    </div>
+                    <span class="renesans"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/barok.svg" alt="BAROK">
+                    </div>
+                    <span class="barok"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/enlightenment.svg" alt="OŚWIECENIE">
+                    </div>
+                    <span class="enlightenment"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/romantism.svg" alt="ROMANTYZM">
+                    </div>
+                    <span class="romantism"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/positivism.svg" alt="POZYTYWIZM">
+                    </div>
+                    <span class="positivism"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/young%20poland.svg" alt="MŁODA POLSKA">
+                    </div>
+                    <span class="youngPoland"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/interwar.svg" alt="MIĘDZYWOJNIE">
+                    </div>
+                    <span class="interwar"></span>
+                </div>
+
+                <div class="circle-box">
+                    <div class="circle">
+                        <img src="svg/present.svg" alt="WSPÓŁCZESNOŚĆ">
+                    </div>
+                    <span class="present"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p class="copyrights">Repozytorium maturalne by Ebay Amazon &copy; BY 2020</p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+    <script src="change_post.js"></script>
+</body>
+
+</html>
